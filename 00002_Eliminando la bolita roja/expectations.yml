@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: SacarRojoConMiedo
+  inspection: HasIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: SacarRojoConMiedo
+  inspection: HasUsage:hayBolitas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Not:Declares:SacarAzulConMiedo

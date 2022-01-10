@@ -1,0 +1,22 @@
+---
+name: Alternativa Condicional
+locale: es
+type: learning
+beta: false
+teacher_info: ''
+language: gobstones
+id_format: "%05d"
+order:
+- 1
+- 5
+- 2
+- 3
+- 4
+- 7
+- 6
+- 8
+- 9
+- 10
+- 10
+- 10
+private: false

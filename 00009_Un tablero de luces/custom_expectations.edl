@@ -1,0 +1,2 @@
+expectation "No hace falta hacer más de un `if` en este ejercicio.":
+  count(uses if) = 1;

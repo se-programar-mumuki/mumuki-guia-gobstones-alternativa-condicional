@@ -1,0 +1,8 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Not:Declares:SacarAzulConMiedo"
+  then: no hace falta mantener la definición de `SacarAzulConMiedo`.  Debemos modificarla
+    y renombrarla para que haga lo mismo con bolitas rojas
